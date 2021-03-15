@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "The year we would rather forget",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "This is crude fork of the B!tch to Boss extension from Mozilla that looks for the year that fell between 2019 and 2021 and edits the web page to hide that year from view.  Good things did happen that year, but for many people, it is a year we would rather forget.",
+    "description": "Description of the extension."
+  }
+}
