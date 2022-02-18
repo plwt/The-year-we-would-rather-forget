@@ -32,9 +32,10 @@ const data = {
         },
         'plural': {
             'terms': [
-                re('2020')
+                re('Bitcoin'),
+                re('Ethereum')
             ],
-            'replacement': casing('(the year we would rather forget)'),
+            'replacement': casing('AmwayBucks'),
         },
     },
 };
@@ -48,7 +49,8 @@ const data_multi = {
     },
     'plural': {
         'terms': [
-            re('2020'),
+            re('Bitcoin'),
+            re('Ethereum')
         ],
         'replacement': data[useLang].plural.replacement,
     },
